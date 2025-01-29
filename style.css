@@ -1,0 +1,52 @@
+/*Estilização da Página*/
+body{
+    background-color: #FCF5E5; /*Cor do fundo da página, escolhi esse ton de branco pois ele deixa os olhos mais confortaveis comparado ao branco 100%*/
+    font-family: Arial, Helvetica, sans-serif; /* Fonte da página*/
+}
+
+.titulo{
+    text-align: center; /*Deixar o titulo centralizado*/
+}
+
+.subTitulo{
+    text-decoration: underline; /*Deixar os Sub Titulos sublinhados*/
+    padding-left: 25px;/*Deixando os SubTítulos mais afastado da esquerda*/
+}
+
+.cabecalhoTabela{
+    background-color: #d3d3d3; /*Cor de fundo do cabeçalho da tabela, escolhi ela para diferenciar o cabeçalho do resto das informações*/
+}
+
+table, th, td {
+    padding: 5px; /*Espaçamento entre a borda e o texto*/
+    border: 1px solid #ddd; /*Cor e tamanho da borda, escolhi essa cor pois o preto em si ficava muito forte e acabava deixando a tabela feia*/
+    border-collapse: collapse; /*Deixar as bordas da tabela unificadas*/
+}
+
+li{
+    list-style-type: none; /*Retirar os pontos na frente do texto*/
+}
+
+a{
+    text-decoration: none; /*Retirar o sublinhado dos links*/
+}
+
+fieldset{
+    border-radius: 10px;/*Deixar a borda arredondada*/
+}
+
+form{
+    padding-left: 20px;/*Afastando o conteúdo do formulário da esquerda*/
+    padding-right: 20px;/*Afastando o conteúdo do formulário da direita*/
+}
+
+legend{
+    font-size: 20px;
+}
+
+select{
+    height: 25px;
+    border-radius: 5px;
+}
+
+/*Fim da Estilização da Página*/
